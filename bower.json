@@ -1,0 +1,26 @@
+{
+  "name": "week013",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "^3.5.0",
+    "jquery": "jQuery#1.7.2",
+    "jQuery": "3.1.1",
+    "normalize-css": "^6.0.0",
+    "components-font-awesome": "^4.7.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
