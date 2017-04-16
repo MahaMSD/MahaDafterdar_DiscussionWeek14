@@ -587,3 +587,309 @@ div#histotime .nav li.active .nav__body {
   border-radius: 7px;
 }
 
+/* ---------------------------- history02 -------------------------- */
+body#historybd02 {
+  background-color: #222222;
+}
+
+body#historybd02 div#historycontent h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #efefef;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+
+body#historybd02 div#timeline a {
+  color: #ffffcc;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body#historybd02 div#timeline a:hover,
+body#historybd02 div#timeline a.selected {
+  color: #ffcc00;
+}
+
+body#historybd02 h2,
+body#historybd02 h4,
+body#historybd02 h5,
+body#historybd02 h6 {
+  text-align: center;
+  color: #ccc;
+  text-shadow: #000 1px 1px 2px;
+  margin-bottom: 5px;
+}
+
+body#historybd02 h1 {
+  font-size: 18px;
+}
+
+body#historybd02 h2 {
+  font-size: 14px;
+}
+
+body#historybd02 .sociales {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body#historybd02 #timeline {
+  width: 800px;
+  height: 350px;
+  overflow: hidden;
+  margin: 100px auto;
+  position: relative;
+  background: url('../images/dot.gif') left 45px repeat-x;
+}
+
+body#historybd02 #dates {
+  width: 800px;
+  height: 60px;
+  overflow: hidden;
+}
+
+body#historybd02 #dates li {
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  background: url('../images/biggerdot.png') center bottom no-repeat;
+}
+
+body#historybd02 #dates a {
+  line-height: 38px;
+  padding-bottom: 10px;
+}
+
+body#historybd02 #dates .selected {
+  font-size: 38px;
+}
+
+body#historybd02 #issues {
+  width: 800px;
+  height: 350px;
+  overflow: hidden;
+}
+
+body#historybd02 #issues li {
+  width: 800px;
+  height: 350px;
+  list-style: none;
+  float: left;
+}
+
+body#historybd02 #issues li.selected img {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+body#historybd02 #issues li img {
+  float: left;
+  margin: 10px 30px 10px 50px;
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+  /* IE 8 */
+  
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+  /* IE 6 & 7 */
+  
+  zoom: 1;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  -webkit-transform: scale(0.7, 0.7);
+  -moz-transform: scale(0.7, 0.7);
+  -o-transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
+}
+
+body#historybd02 #issues li h1 {
+  color: #ffcc00;
+  font-size: 48px;
+  margin: 20px 0;
+  text-shadow: #000 1px 1px 2px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+body#historybd02 #issues li p {
+  font-size: 14px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-weight: normal;
+  line-height: 22px;
+  text-shadow: #000 1px 1px 2px;
+  color: #ffffff;
+}
+
+body#historybd02 #grad_left,
+body#historybd02 #grad_right {
+  width: 100px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+}
+
+body#historybd02 #grad_left {
+  left: 0;
+  background: url('../images/grad_left.png') repeat-y;
+}
+
+body#historybd02 #grad_right {
+  right: 0;
+  background: url('../images/grad_right.png') repeat-y;
+}
+
+body#historybd02 #next,
+body#historybd02 #prev {
+  position: absolute;
+  top: 0;
+  font-size: 70px;
+  top: 170px;
+  width: 22px;
+  height: 38px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+body#historybd02 #next:hover,
+body#historybd02 #prev:hover {
+  background-position: 0 -76px;
+}
+
+body#historybd02 #next {
+  right: 0;
+  background: red;
+  color: #ffffff;
+  border: 1px solid red;
+  font-size: 20px;
+}
+
+body#historybd02 #prev {
+  left: 0;
+  background: blue;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+body#historybd02 #next.disabled,
+body#historybd02 #prev.disabled {
+  opacity: 0.2;
+}
+
+/* --------------------------- game --------------------------- */
+body#gamebd {
+  background-color: #222222;
+}
+
+div#gamecontent h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #efefef;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+#quizzie {
+  padding: 5% 0;
+  /* Individual Steps/Sections */
+  /* Content */
+}
+#quizzie ul {
+  list-style: none;
+  display: block;
+  width: auto;
+  margin: 2% 2%;
+  padding: 2%;
+  overflow: auto;
+  display: none;
+  /* Step Questions and Answer Options */
+}
+#quizzie ul.current {
+  display: block;
+}
+#quizzie ul li {
+  display: inline-block;
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+  overflow: auto;
+  text-align: center;
+}
+
+#quizzie ul li div h2 {
+  font-family: 'Lato', sans-serif;
+  color: #cecece;
+  font-size: 18px;
+}
+
+#quizzie ul li div p {
+  font-family: 'Lato', sans-serif;
+  color: #cecece;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+
+#quizzie ul li.quiz-answer {
+  cursor: pointer;
+}
+#quizzie ul li.question, #quizzie ul li.results-inner {
+  display: block;
+  float: none;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2%;
+}
+
+#quizzie ul li.results-inner {
+  padding: 5% 2%;
+}
+
+#quizzie ul li.results-inner p {
+  font-family: 'Lato', sans-serif;
+  color: #cecece;
+  font-size: 14px;
+}
+
+#quizzie ul li.results-inner img {
+  width: 250px;
+}
+#quizzie ul li:last-child {
+  margin-right: 0;
+}
+#quizzie .question-wrap, #quizzie .answer-wrap {
+  display: block;
+  padding: 1%;
+  margin: 1em 10%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#quizzie .answer-wrap {
+  background: rgba(64, 64, 64, 0.7);
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+#quizzie .answer-wrap:hover {
+  background: rgba(64, 64, 64, 1);
+}
